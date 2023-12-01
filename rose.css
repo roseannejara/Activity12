@@ -1,0 +1,100 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (min-width: 360px) {
+    header{
+        background-color:teal;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        color: gold;
+    }
+
+    .text1{
+        color:wheat;
+        text-decoration: none;
+    }
+}
+@media (max-width: 1000px) {
+    .con1{
+        flex-direction: column;
+    }
+    .banner{
+        font-size: 5vw;
+    }
+    .text1{
+        font-size: 3vw;
+    }
+}
+
+.text1:hover{
+    text-decoration-line: underline;
+}
+
+.line{
+    color:chocolate;
+    background-color:chocolate;
+}
+
+.con2{
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: goldenrod;
+    padding: 30px;
+    border: 2px solid black;
+    
+}
+
+h2{
+    text-align: center;
+}
+@media (min-width: 360px){
+    .con3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:blueviolet;
+        background-position:fixed ;
+    }
+}
+@media (max-width: 1000px) {
+    .con3 {
+        flex-direction: column;
+    }
+}
+.flex-item {
+    padding: 5px;
+    margin: 10px;
+}
+
+h3{
+    color: gold;
+}
+
+.item3{
+    background-color:cadetblue;
+}
+
+.head3{
+    color:darkgreen;
+}
+
+p{
+    color:black;
+}
+
+.p1{
+    background-color: darkgray;
+    padding: 5px;
+    margin-right: 700px;
+}
+
+footer{
+    text-align: center;
+    background-color:chocolate;
+    color: black;
+    padding: 5px;
+}
